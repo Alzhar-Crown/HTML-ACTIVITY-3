@@ -4,19 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
     <style>
 .main {
-    width: 800px;
-    
+    width: 600px;
+     
     background-color: rgb(252, 252, 252);
+    margin-left: auto;
+    margin-right: auto;
     
 
 }
 table {
     width: 600px;
     border-collapse: collapse;
-    
+
     
 }
 
@@ -28,15 +36,22 @@ button{
 
 }
 
-td{
-    background-color: rgb(71, 77, 75);
-}
 .jj{
     background-color: yellow;
+    text-align: center;
 }
 img{
     width: 200px;
     height: 150px;
+}
+h1{
+    font-family: "Pixelify Sans", sans-serif;
+}
+td{
+    font-family: "Baskervville SC", serif;
+    text-align: center;
+    
+    
 }
 
     </style>
@@ -44,45 +59,50 @@ img{
 <body>
 <div class="main">
 <div class="Tabel">
-    <h1>Menu makan</h1>
+    <h1>Menu Makanan</h1>
     <button>Tambah</button>
 <div class="TABEL">
  <table border="1">
+    <thead>
     <tr class="jj">
-        <td><th>No</th></td>
-        <td><th>Nama</th></td>
-        <td><th>Harga</th></td>
-        <td><th>Gambar</th></td>
+        <th>No</th>
+        <th>Nama</th>
+        <th>Harga</th>
+        <th>Gambar</th>
+        
+    </tr>
+</thead>
+<tbody>
+    <tr>
+
+        <td>1</td>
+        <td>Megono</td>
+        <td>Rp 4,000</td>
+        <td><img src="megono.jfif" alt=""></td>
         
     </tr>
     <tr>
-        <td><th >1</th></td>
-        <td><th>Megono</th></td>
-        <td><th>Rp 4,000</th></td>
-        <td><th><img src="megono.jfif" alt=""></th></td>
+        <td>2</td>
+        <td>Nasi Padang</td>
+        <td>Rp 15,000</td>
+        <td><img src="naspad.jpg" alt=""></td>
         
     </tr>
     <tr>
-        <td><th>2</th></td>
-        <td><th>Nasi Padang</th></td>
-        <td><th>Rp 15,000</th></td>
-        <td><th><img src="naspad.jpg" alt=""></th></td>
+        <td>3</td>
+        <td>Intel</td>
+        <td>Rp 10,000</td>
+        <td><img src="Intel.jfif" alt=""></td>
         
     </tr>
     <tr>
-        <td><th>3</th></td>
-        <td><th>Intel</th></td>
-        <td><th>Rp 10,000</th></td>
-        <td><th><img src="Intel.jfif" alt=""></th></td>
+        <td>4</td>
+        <td>Nasi Goreng</td>
+        <td>Rp 35,000</td>
+        <td><img src="nasgor.jfif" alt=""></th></td>
         
     </tr>
-    <tr>
-        <td><th>4</th></td>
-        <td><th>Nasi Goreng</th></td>
-        <td><th>Rp 35,000</th></td>
-        <td><th><img src="nasgor.jfif" alt=""></th></td>
-        
-    </tr>
+    </tbody>
     
 
     
