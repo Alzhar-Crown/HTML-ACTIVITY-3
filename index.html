@@ -9,11 +9,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <style>
 .main {
-    width: 600px;
+    width: 1000px;
+    height: 100px;
      
     background-color: rgb(252, 252, 252);
     margin-left: auto;
@@ -22,35 +23,45 @@
 
 }
 table {
-    width: 600px;
+    width: 1000px;
     border-collapse: collapse;
+    margin-top: 30px;
+    height:200px
 
     
 }
 
-button{
-    margin-bottom: 10px;
-    border-radius: 10px;
-    background-color: rgb(255, 252, 249);
-    height: 28px;
 
-}
 
 .jj{
     background-color: yellow;
     text-align: center;
 }
-img{
-    width: 200px;
-    height: 150px;
-}
+
 h1{
     font-family: "Pixelify Sans", sans-serif;
 }
 td{
-    font-family: "Baskervville SC", serif;
-    text-align: center;
+   font-family: "Roboto", sans-serif;
+   text-align: center;
     
+    
+}
+button{
+padding: 10px;
+padding-left: 10px;
+font-size: medium;
+}
+.tombol{
+    text-decoration: none;
+    background-color: rgba(248, 253, 255, 0.2);
+    border: 3px solid #000;
+    font-size: larger;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+
+
     
 }
 
@@ -59,16 +70,23 @@ td{
 <body>
 <div class="main">
 <div class="Tabel">
-    <h1>Menu Makanan</h1>
-    <button>Tambah</button>
+    <h1>Daftar Produk</h1>
+    <a href="tambah.html" class="tombol">Tambah</a>
 <div class="TABEL">
  <table border="1">
     <thead>
     <tr class="jj">
         <th>No</th>
         <th>Nama</th>
-        <th>Harga</th>
-        <th>Gambar</th>
+        <th>Harga beli</th>
+        <th>Kode Barang</th>
+        <th>Tanggal Masuk</th>
+        <th>Tanggal expired</th>
+        <th>Jumlah Stock</th>
+        <th>Harga Jual</th>
+        <th>Aksi</th>
+
+
         
     </tr>
 </thead>
@@ -76,31 +94,60 @@ td{
     <tr>
 
         <td>1</td>
-        <td>Megono</td>
-        <td>Rp 4,000</td>
-        <td><img src="megono.jfif" alt=""></td>
-        
+        <td>Masker Medis</td>
+        <td> 4000</td>
+        <td>33589003</td>
+        <td>18-05-2024</td>
+        <td>19-07-2024</td>
+        <td>40</td>
+        <td>10000</td>
+        <td>
+            <button>Edit</button>
+            <button>Delete</button>
+        </td>
     </tr>
     <tr>
         <td>2</td>
-        <td>Nasi Padang</td>
-        <td>Rp 15,000</td>
-        <td><img src="naspad.jpg" alt=""></td>
+        <td>Masker Medis</td>
+        <td>4000</td>
+        <td>33589003</td>
+        <td>18-05-2024</td>
+        <td>19-07-2024</td>
+        <td>40</td>
+        <td>10000</td>
+        <td>
+            <button>Edit</button>
+            <button>Delete</button>
+        </td>
         
     </tr>
     <tr>
         <td>3</td>
-        <td>Intel</td>
-        <td>Rp 10,000</td>
-        <td><img src="Intel.jfif" alt=""></td>
-        
+        <td>Masker Medis</td>
+        <td>4000</td>
+        <td>33589003</td>
+        <td>18-05-2024</td>
+        <td>19-07-2024</td>
+        <td>40</td>
+        <td>10000</td>
+        <td>
+            <button>Edit</button>
+            <button>Delete</button>
+        </td>
     </tr>
     <tr>
         <td>4</td>
-        <td>Nasi Goreng</td>
-        <td>Rp 35,000</td>
-        <td><img src="nasgor.jfif" alt=""></th></td>
-        
+        <td>Masker Medis</td>
+        <td>4000</td>
+        <td>33589003</td>
+        <td>18-05-2024</td>
+        <td>19-07-2024</td>
+        <td>40</td>
+        <td>10000</td>
+        <td>
+            <button>Edit</button>
+            <button>Delete</button>
+        </td>
     </tr>
     </tbody>
     

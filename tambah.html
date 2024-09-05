@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+   
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+        .main{
+            width: 300px;
+            background-color: rgb(255, 255, 255);
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+            
+        }
+        h1{
+            font-family: "Orbitron", sans-serif;
+        }
+       
+        label{
+            display: block;
+        }
+        input{
+            width: 100%;
+            border-radius: 10px;
+            height: 30px;
+        }
+        
+        .nama, .kode, .masuk, .expired, .jumlah, .beli, .jual{
+            margin-bottom: 17px;
+            
+        }
+        button{
+         margin-left:240px ;
+         padding: 9px;
+         border-radius: 20px;
+         background-color: rgba(165, 194, 196, 0.473);
+         color: rgb(14, 74, 109);
+         font-family: "Bebas Neue", sans-serif;
+         font-size: medium;
+         letter-spacing: 2px;
+         margin-top: 20px;
+    
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Tambah Barang</h1>
+       
+        <div class="tabel">
+              <div class="nama">
+                <label for="">Nama</label>
+                <input type="text">
+            </div>
+            
+            <div class="kode">
+                <label for="">Kode</label>
+                <input type="number">
+            </div>
+            <div class="masuk">
+                <label for="">Tanggal Masuk</label>
+                <input type="date">
+            </div>
+            <div class="expired">
+                <label for="">Tanggal Expired</label>
+                <input type="date">
+            </div>
+            <div class="jumlah">
+                <label for="">Jumlah Stock</label>
+                <input type="number">
+            </div>
+            <div class="beli">
+                <label for="">Harga Beli</label>
+                <input type="number">
+            </div>
+            <div class="jual">
+                <label for="">Harga Jual</label>
+                <input type="number">
+            </div>
+        
+        </div>
+        <button>Simpan</button>
+
+    </div>
+    
+</body>
+</html>
